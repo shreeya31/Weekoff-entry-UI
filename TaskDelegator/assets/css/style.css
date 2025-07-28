@@ -1,0 +1,12 @@
+/* Custom styles for the calendar grid and dropdowns */
+
+#calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border-left: 1px solid #e2e8f0; /* slate-200 */
+    border-top: 1px solid #e2e8f0; /* slate-200 */
+}
+
+.dropdown-menu {
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
